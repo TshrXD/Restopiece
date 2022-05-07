@@ -1,0 +1,84 @@
+html{
+	scroll-behavior: smooth;
+}
+.fp{
+	font-family: Amatic SC;
+	font-size: 60px;
+	margin: 10px;
+	font-weight: bold;
+}
+body{
+	background-color: #eab676;
+	font-family: Arial;
+	color: #1e81b0;
+}
+nav{
+	position: relative;
+	background-color: #76b5c5;
+	right: 0;
+	left: 0;
+	top: 0;
+	padding: .8rem;
+	overflow: hidden;
+}
+.r{
+	font-family: 'Archivo Black', sans-serif;
+	color: #341210;
+	margin: 20px;
+	float: left;
+	margin-left: 40%;
+}
+input{
+	width: 350px;
+	background-color: 
+/*	color: #1e81b0;*/
+}
+.ip{
+	color: #1e81b0;
+
+}
+.cut {
+  background-color: #b8eaeb;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+/*  position: absolute;*/
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 350px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #341210;
+  font-weight: bold;
+
+}
+.cut2{
+  background-color: #b8eaeb;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+/*  position: absolute;*/
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 50px;
+    font-family: 'Archivo Black', sans-serif;
+  color: #341210;
+  font-weight: bold;
+
+}
+.cut3{
+	  background-color: #b8eaeb;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+/*  position: absolute;*/
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 100px;
+  margin: 20px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #341210;
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>|| श्री ||</title>
+	<link rel="stylesheet" type="text/css" href="./Contect.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<script>
+	function validateForm(){
+		var a = document.forms["Contect"]["name"].value;
+		var b = document.forms["Contect"]["email"].value;
+		var c = document.forms["Contect"]["no"].value;
+		var d = document.forms["Contect"]["add"].value;
+			if(a=="" || a==null) 
+			{
+				alert("Name is Missing")
+				return false;
+			}
+			if(b=="" || b==null) 
+			{
+				alert("Where's Your Email")
+				return false;
+			}
+			if (isNaN(c) || c<=9)
+			{
+				alert("Your Number ?")
+				return false;
+			}
+			if (d=="" || d==null)
+			{
+				alert("please enter the address")
+				return false;
+			}
+	}
+</script>
+</head>
+<body>
+	<center>
+		<section>
+			<nav>
+			<div class="fp">Contect</div>&nbsp<a href="./Restopiece.html"><span style="color:green; float: right;">&#8865;</span></a>
+			</nav>
+		</section>
+		<form method="post" onsubmit="validateForm()" name="Contect" action="details.php">
+		<section>
+			<label class="r">Name : <input type="text" name="name" class="cut"></label><br><br><br><br>
+			<label class="r" for="email">Mail : <input type="email" name="mail" class="cut"></label><br><br><br><br>
+			<label class="r">Mobile No. : 
+			<select class="cut2">
+				<option value="+91" class="cut">+91</option>
+				<option value="+22" class="cut">+22</option>
+			</select>
+			<input type="text" name="mobile" class="cut"></label><br><br><br><br>
+			<label class="r">Address : <input type="text" name="address" class="cut"></label><br><br><br><br>
+			<input type="submit" name="save" value="Submit" class="cut3">
+			<input type="reset" name="reset" class="cut3">
+		</section>
+		</form>
+	</center>
+
+</body>
+</html>

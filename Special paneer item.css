@@ -1,0 +1,37 @@
+.fp{
+	font-family: Amatic SC;
+	font-size: 60px;
+	margin: 10px;
+	font-weight: bold;
+}
+body{
+	background-color: #eab676;
+	font-family: Arial;
+	color: #1e81b0;
+}
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	position: relative;
+	background-color: #76b5c5;
+	right: 0;
+	left: 0;
+	top: 0;
+	padding: .8rem;
+	overflow: hidden;
+}
+.r{
+	margin:50px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 20px;
+	color: #341210;
+}
+.r:hover{
+	text-decoration: underline;
+	position: relative;
+}
+section{
+	background-image: url('./PaneerBK.png');
+}
+/*FONT    >>>>>font-family: 'Archivo Black', sans-serif;*/
